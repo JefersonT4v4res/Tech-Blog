@@ -141,15 +141,15 @@ body {
 }
 
 /* Triângulo Background*/
-
 .triangulo {
-  background: #eeeeff;
+  background-image: url("/assets/img/imgs/trianguloBG_newsletter.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  top: 80px;
   width: 100vw;
   height: 100vh;
-  position: absolute;
-  top: 60px;
-  right: 0;
-  clip-path: polygon(100% 0, calc(50% - 40px) 100%, 100% 100%);
   z-index: -1;
-  box-shadow: inset -20px -20px 30px rgba(0, 0, 0, 0.3);
 }
