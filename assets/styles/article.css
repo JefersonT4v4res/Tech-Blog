@@ -1,19 +1,147 @@
-.aside_article {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.container_conteudo {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px;
+}
+
+.aside_article{
   display: none;
 }
 
+/* Estilos gerais para a página */
+
+.article_info {
+  width: 100%;
+}
+
+.article_titulo h1 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #846AFF;
+}
+
+.info_autora {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.info_autora img {
+  width: 84px;
+  height: 84px;
+  padding: 5px;
+}
+
+.info_autora h3 {
+  margin: 0;
+  font-size: 1em;
+}
+
+.info_data {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.info_data img {
+  width: 16px;
+  margin-right: 5px;
+}
+
+.info_data h3 {
+  margin-right: 10px;
+  font-size: 0.9em;
+}
+
+.img_git {
+  width: 100%;
+  height: auto;
+  margin: 15px 0;
+}
+
+.article_info h2 {
+  font-size: 1.6em;
+  margin-top: 15px;
+}
+
+.article_info p {
+  margin-bottom: 15px;
+}
+
+Estilos para o aside
+.aside_article aside h2 {
+  font-size: 1.4em;
+  margin-bottom: 15px;
+}
+
+.aside_article div > div {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.aside_article div > div img {
+  width: 16px;
+  margin-right: 10px;
+}
+
+.aside_article div > div p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+/* Estilos para os ícones de compartilhamento */
+.aside_article div > div img {
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+}
+
+/* Layout para telas maiores */
+@media screen and (min-width: 768px) {
+  .container_conteudo {
+      display: flex;
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+
+  .article_info {
+      padding-right: 20px;
+  }
+
+  .aside_article {
+      width: 25%;
+      padding-left: 20px;
+  }
+}
 
 @media (min-width: 1440px) {
+  
   .aside_article {
     display: flex;
     flex-direction: row-reverse;
-    height: 0.1vh;
-    margin-right: 2.5rem;
+    margin-left: 5.0rem;
   }
   
 
   aside {
-    width: 20vw;
+    margin-left: 3;
+    width: 547px;
     height: 100vh;
   }
 
@@ -24,7 +152,7 @@
   }
 
   .img_git {
-    width: 1000px;
+    width: 750px;
   }
 
-} 
+}
