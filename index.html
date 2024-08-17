@@ -6,13 +6,14 @@
     <title>Tech Blog</title>
 
     <link rel="stylesheet" href="./assets/styles/normalize.css">
-    <link rel="stylesheet" href="./assets/styles/techBlog-main.css">
+    
+    <link rel="stylesheet" href="./assets/styles/techBlog.css">
+    <link rel="stylesheet" href="./assets/styles/header.css">
 </head>
 <body>
-   <header>
-    <img src="" alt="">
+   <header class="header-container">
+    <img src="./assets/img/imgs/TechNews-logo (Mobile).png" class="header-logo" alt="logo Tech blog">
     <nav>
-        <button type="button"><img src="./assets/img/imgs/TechNews-logo (Mobile).png" alt="" class="logo_mobile"></button>
         <button type="button"><img src="./assets/img/icons/menu-hamburguer_icon.svg" alt="" class="menuHamburguer-icon"></button>
         <!-- <button type="button"><a href="#">CONTATO</a></button>
         <button type="button"><a href="#">ARTIGOS</a></button>
@@ -22,15 +23,74 @@
 
    <section class="hero">
         <img src="./assets/img/imgs/image.svg" alt="">
-        <h1>Receba os <span>melhores artigos</span>
+        <h1 class="hero-titulo">Receba os <span class="destaque--hero-titulo">melhores artigos</span>
             de programação em um só lugar</h1>
-        <p>Explore o topo da programação em um só lugar! Seu destino único para dicas e tendências atuais.</p>
-        <button type="button">SAIBA MAIS</button>
+        <p class="hero-subtitulo">Explore o topo da programação em um só lugar! Seu destino único para dicas e tendências atuais.</p>
+        <button class="btn_callToAction" type="button">SAIBA MAIS</button>
    </section>
 
    <main>
-    
+        <h2>Artigos recomendados</h2>
+        <div class="container_cards">
+            <div class="card">
+                <img src="" style="background-color: blueviolet;" alt="">
+                <h3>O que é linguagem de programação? Conheça as principais</h3>
+                <p>Uma das mais populares vertentes da tecnologia da informação, a área de...</p>
+            </div>
+
+            <div class="card">
+                <img src="" style="background-color: burlywood;" alt="">
+                <h3>Python: por que a linguagem é tão usada para Data Science e finanças?</h3>
+                <p>O mundo da programação conta com algumas opções de linguagem para...</p>
+            </div>
+
+            <div class="card">
+                <img src="" style="background-color: aquamarine;" alt="">
+                <h3>GitHub tem receita de US$ 1 bilhão e 90 milhões de usuários</h3>
+                <p>O popular serviço de repositório de código GitHub foi adquirido pela...</p>
+            </div>
+
+            <div class="card">
+                <img src="" style="background-color: chocolate;" alt="">
+                <h3>15 comandos no GIT que os desenvolvedores precisam saber</h3>
+                <p>Dominar os comandos GIT é uma habilidade que se conquista com...</p>
+            </div>
+
+            <div class="card">
+                <img src="" style="background-color: turquoise;" alt="">
+                <h3>GIT e GitHub: o que são e quais as diferenças entre eles?</h3>
+                <p>Git e GibHub são dois softwares de controle de versão essenciais para...</p>
+            </div>
+
+            <div class="card">
+                <img src="" style="background-color: chartreuse;" alt="">
+                <h3>GitHub Copilot ganha integração com GPT-4 e interface conversacional</h3>
+                <p>O GitHub Copilot, ferramenta de desenvolvimento baseada em IA...</p>
+            </div>
+        </div>
+        <button type="button">CARREGAR MAIS ARTIGOS</button>
    </main>
+
+   <footer>
+        <section class="sigaNos">
+            <img src="#" style="background-color: brown;" alt="">
+            <p>Tudo que você precisa saber sobre tecnologia pra começar seu dia bem e informado.</p>
+            <div>
+                <img src="" alt="" class="img_socialMedia" id="linkedin">
+                <img src="" alt="" class="img_socialMedia" id="whatsapp">
+                <img src="" alt="" class="img_socialMedia" id="x">
+            </div>
+        </section>
+        <section class="sigaNos">
+            <h2>Entre em contato</h2>
+            <form action="GET" method="get">
+                <input class="inpt_contato" id="nome" type="text" placeholder="Nome">
+                <input class="inpt_contato" id="email" type="text" placeholder="Nome">
+                <textarea name="" id="assunto" class="inpt_contato"></textarea>
+                <button type="submit">ENTRAR EM CONTATO</button>
+            </form>
+        </section>
+   </footer>
 
    
 </body>
