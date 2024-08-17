@@ -24,6 +24,7 @@
 .hero-subtitulo {
     font-size: 1rem;
     font-weight: 400;
+    color: #121214;
 }
 
 .btn_callToAction {
@@ -35,4 +36,43 @@
     color: #fff;
     font-size: .875rem;
     font-weight: 600;
+}
+
+.conteudo_Principal {
+    background-color: #F8F8FF;
+    padding: 2rem 1rem;
+    text-align: start;
+}
+
+.container_cards {
+    margin: 2rem auto;
+}
+
+.card {
+    box-sizing: border-box;
+    height: 19rem;
+    border: 2px solid #EEEEFF;
+    border-radius: .5rem;
+    
+    margin: .8rem auto;
+    display: flex;
+    gap: .6rem;
+    flex-wrap: wrap;
+
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: .75rem auto;
+}
+
+.card p {
+    font-size: .875rem;
+    font-weight: 400;
+    color: #121214;
 }
