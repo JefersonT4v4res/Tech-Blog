@@ -248,8 +248,10 @@ body {
   }
 
   .subscribe input[type="email"] {
+    padding: 0px 60px;
     width: 273px;
     height: 55px;
+    background-position: 5px;
   }
 
   .subscribe button {
