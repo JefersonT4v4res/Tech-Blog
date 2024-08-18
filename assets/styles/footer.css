@@ -5,13 +5,9 @@
     padding: 1rem 1rem;
     width: 100vw;
     height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .sigaNos, .contateNos, form {
-    max-width: 37rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -73,7 +69,6 @@ section .inpt_assunto {
 
 .btn_callToAction {
     width: 100%;
-    max-width: 20rem;
     height: 2.5rem;
     border-radius: 4px;
     text-align: center;
