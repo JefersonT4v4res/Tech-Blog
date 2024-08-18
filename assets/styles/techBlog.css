@@ -34,20 +34,28 @@
     background-color: #fff;
     padding: 2rem 1rem;
     text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .conteudo_Principal h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
+    width: 21rem;
+    margin: auto;
 }
 
 .container_cards {
     margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card {
     box-sizing: border-box;
+    max-width: 21rem;
     height: 19rem;
     border: 2px solid #EEEEFF;
     border-radius: .5rem;
@@ -60,6 +68,7 @@
 
 .card img {
     width: 100%;
+    max-width: 25rem;
 }
 
 .card h3 {
@@ -74,4 +83,7 @@
     color: #121214;
 }
 
-/*  */
+/* Media Queries para Tablets */
+@media screen and (min-width: 768px) {
+    
+}
