@@ -1,3 +1,5 @@
+@import url('./font-face.css');
+
 .footer-container {
     background-color: #F8F8FF;
     padding: 1rem 1rem;
@@ -14,6 +16,9 @@
 
 .sigaNos {
     height: 20rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
     text-align: center;
     font-size: 1.125rem;
 }
@@ -32,6 +37,7 @@
 }
 
 .contateNos h2 {
+    font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     font-weight: 600;
 }
@@ -49,9 +55,9 @@ section .inpt_assunto {
     height: 3.6875rem;
     width: 18rem;
     padding: .7rem;
-
+    font-family: 'Roboto', sans-serif;
     font-size: 1.125rem;
-    
+    font-weight: 400;
     border: #EAEAEA solid .0625rem;
     border-radius: .25rem;
 }
@@ -68,6 +74,9 @@ section .inpt_assunto {
     text-align: center;
     background-color: #846AFF;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
     font-size: .875rem;
-    font-weight: 600;
+    font-weight: 500;
 }
+
+/*  */
