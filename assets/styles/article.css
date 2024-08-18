@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,154 +7,181 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 400;
   background-color: #ffffff;
   color: #000000;
 }
 
+/* Estilos Mobile First */
 .container_conteudo {
   display: flex;
-  flex-direction: row-reverse;
-  padding: 20px;
+  flex-direction: column;
+  margin: 15px;
 }
 
-.aside_article{
+.aside_article {
   display: none;
 }
-
-/* Estilos gerais para a página */
 
 .article_info {
   width: 100%;
 }
 
 .article_titulo h1 {
-  font-size: 1.8em;
+  font-size: 1.6em;
   margin-bottom: 15px;
   border-bottom: 3px solid #846AFF;
 }
 
+.info_autora_e_data {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+
 .info_autora {
   display: flex;
-  flex-wrap: nowrap;
+  align-items: stretch;
   flex-direction: column;
-  margin-bottom: 10px;
+  margin-right: 2.5rem;
 }
 
 .info_autora img {
   width: 84px;
   height: 84px;
-  padding: 5px;
+  margin-left: 2rem;
 }
 
-.info_autora h3 {
-  margin: 0;
-  font-size: 1em;
-}
+.nome_autora {
+    display: flex;
+    margin-left: 0.8rem;
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
 
 .info_data {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 15px;
+  flex-direction: column;
 }
 
 .info_data img {
-  width: 16px;
-  margin-right: 5px;
+  width: 35px;
+  margin-bottom: 1rem;
 }
 
-.info_data h3 {
-  margin-right: 10px;
-  font-size: 0.9em;
+.data_atualizacao{
+  color: #959595;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.atualizacao{
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .img_git {
   width: 100%;
   height: auto;
-  margin: 15px 0;
+  margin: 1.5rem 0;
 }
 
-.article_info h2 {
-  font-size: 1.6em;
-  margin-top: 15px;
+.paragrafo{
+  margin-bottom: 1.5rem;
 }
 
-.article_info p {
-  margin-bottom: 15px;
+.subtitulo{
+  margin: 1.5rem 0;
 }
 
-Estilos para o aside
-.aside_article aside h2 {
-  font-size: 1.4em;
-  margin-bottom: 15px;
+.fonte-destaque {
+  color: #846AFF; 
+  text-decoration: underline;
+  font-style: italic;
 }
 
-.aside_article div > div {
-  margin-bottom: 15px;
-  display: flex;
-  align-items: center;
-}
-
-.aside_article div > div img {
-  width: 16px;
-  margin-right: 10px;
-}
-
-.aside_article div > div p {
-  margin: 0;
-  font-size: 0.9em;
-}
-
-/* Estilos para os ícones de compartilhamento */
-.aside_article div > div img {
-  width: 25px;
-  height: 25px;
-  margin-right: 8px;
-}
-
-/* Layout para telas maiores */
+/* Media Queries para Tablets */
 @media screen and (min-width: 768px) {
   .container_conteudo {
-      display: flex;
-      max-width: 1200px;
-      margin: 0 auto;
-  }
-
-  .article_info {
-      padding-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
   }
 
   .aside_article {
-      width: 25%;
-      padding-left: 20px;
+    display: flex;
+    width: 36%;
+    padding: 1rem;
+  }
+
+  .aside_title{
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    margin: 35px 0 20px 0;
+    border-bottom: 3px solid #846AFF;
+  }
+
+  .bloco_artigos{
+    padding: 5px;
+    border: 2px dashed #9747FF;
+    border-radius: 8px;
+  }  
+
+ .article_info {
+    width: 63%;
+    padding: 1rem;
+  }
+
+  .article_titulo h1 {
+    font-size: 2em;
+  }
+
+  .info_autora img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .redes_title{
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    border-top: 3px solid #846AFF;
+    text-align: center;
+  }
+
+  .redes_acesso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.7rem;
+  }
+
+  .redes_acesso img{
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+ }
+
+  .informacoes{
+    display: block;
+    width: 63%;
   }
 }
 
-@media (min-width: 1440px) {
-  
-  .aside_article {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-left: 5.0rem;
-  }
-  
+/* Media Queries para Desktops */
+@media screen and (min-width: 1378px) {
 
-  aside {
-    margin-left: 3;
-    width: 547px;
-    height: 100vh;
+  .article_titulo{
+    padding-top: 2.2rem;
   }
-
-  main {
-    height: 80vh;
-    flex: 1;
-    width: 70vh;
+  .paragrafo{
+    font-size: 24px;
   }
-
-  .img_git {
-    width: 750px;
-  }
-
 }
