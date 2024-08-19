@@ -99,26 +99,49 @@ body {
   background-color: #846affac;
 }
 
+/* Seção de retorno à pagina inicial*/
+
 .subscribe .additional-info {
   font-size: 1rem;
   color: #121214;
 }
 
 .subscribe .additional-info p {
+  font-style: italic;
   margin-bottom: 1rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
-.subscribe .additional-info p:last-child {
+.subscribe .additional-info button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: left;
+}
+
+.subscribe .additional-info button a {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #121214;
+  text-decoration: none;
   display: flex;
   align-items: center;
-  text-align: center;
 }
 
-.subscribe .additional-info img {
+.subscribe .additional-info button img {
   width: 2rem;
   height: 2rem;
   margin-left: 0.5rem;
+}
+
+.subscribe .additional-info button:hover a {
+  color: #846aff;
+}
+
+.subscribe .additional-info button:hover img {
+  filter: brightness(1.8);
+  opacity: 0.8;
 }
 
 /* Seção de Imagem */
@@ -196,7 +219,11 @@ body {
     font-size: 1.25rem;
   }
 
-  .subscribe .additional-info img {
+  .subscribe .additional-info button a {
+    font-size: 1.25rem;
+  }
+
+  .subscribe .additional-info a img {
     width: 1.9rem;
     height: 2rem;
   }
@@ -270,7 +297,12 @@ body {
     font-size: 1.5rem;
   }
 
-  .subscribe .additional-info img {
+  .subscribe .additional-info button a {
+    margin-left: 6rem;
+    font-size: 1.5rem;
+  }
+
+  .subscribe .additional-info a img {
     width: 2.4rem;
     height: 2.1rem;
   }
