@@ -1,106 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech News</title>
+    <link rel="stylesheet" href="../assets/styles/normalize.css" />
+    <link rel="stylesheet" href="../assets/styles/header.css" />
+    <link rel="stylesheet" href="../assets/styles/article.css" />
+    <link rel="stylesheet" href="../assets/styles/footer.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tech News</title>
-  <link rel="stylesheet" href="../assets/styles/article.css">
-  <link rel="stylesheet" href="../assets/styles/normalize.css">
-</head>
+  <body>
+    <header class="header-container">
+      <img
+        src="../assets/img/imgs/TechNews-logo (Desktop).png"
+        class="header-logo"
+        alt="logo Tech blog"
+      />
 
-<body>
-<<<<<<< HEAD
-  <header></header>
-=======
-  <header class="header-container">
-    <img src="../assets/img/imgs/TechNews-logo (Desktop).png" class="header-logo" alt="logo Tech blog">
-    
-    <nav>
-        <button class="btn_nav-MenuHamburguer" type="button"><img src="../assets/img/icons/menu-hamburguer_icon.svg" alt="" class="menuHamburguer-icon"></button>
-        <button class="btn_nav-Menu" type="button"><a href="#informacoes">CONTATO</a></button>
-        <button class="btn_nav-Menu" type="button"><a href="#artigos">ARTIGOS</a></button>
-        <button class="btn_nav-Menu" type="button"><a href="./newsletter.html">INSCREVA-SE</a></button>
-    </nav>
-</header>
->>>>>>> eb617cb6cd7b70a5632459d8812a3ed0f313001c
+      <nav>
+        <button class="btn_nav-MenuHamburguer" type="button">
+          <img
+            src="../assets/img/icons/menu-hamburguer_icon.svg"
+            alt=""
+            class="menuHamburguer-icon"
+          />
+        </button>
+        <button class="btn_nav-Menu" type="button">
+          <a href="#informacoes">CONTATO</a>
+        </button>
+        <button class="btn_nav-Menu" type="button">
+          <a href="#artigos">ARTIGOS</a>
+        </button>
+        <button class="btn_nav-Menu" type="button">
+          <a href="./newsletter.html">INSCREVA-SE</a>
+        </button>
+      </nav>
+    </header>
 
-  <main class="container_conteudo">
-    <section class="aside_article">
-      <aside id="artigos">
-        <h2 class="aside_title
-        ">Artigos recomendados</h2>
-        <div class="bloco_artigos">
-          <div class="bloco">
-            <p class="paragrafo_aside">Python: por que a linguagem é tão usada para Data Science e finanças?</p>
-            <img class="img_aside"  src="../assets/img/imgs/calendario.png" alt="calendario">
-            <h3 class="data_aside">14.ago.2024</h3>
+    <main class="container_conteudo">
+      <section class="article_info">
+        <div class="article_titulo">
+          <h1>GIT e GitHub: o que são e quais as diferenças entre eles?</h1>
+        </div>
+        <div class="info_autora_e_data">
+          <div class="info_autora">
+            <img src="../assets/img/imgs/autora.png" alt="Foto autora" />
+            <h3 class="nome_autora">Tayná Oliveira</h3>
           </div>
-          <div class="bloco">
-            <p class="paragrafo_aside">Python: por que a linguagem é tão usada para Data Science e finanças?</p>
-            <img class="img_aside" src="../assets/img/imgs/calendario.png" alt="calendario">
-            <h3 class="data_aside">14.ago.2024</h3>
-          </div>
-          <div class="bloco">
-            <p class="paragrafo_aside">Python: por que a linguagem é tão usada para Data Science e finanças?</p>
-            <img class="img_aside"  src="../assets/img/imgs/calendario.png" alt="calendario">
-            <h3 class="data_aside">14.ago.2024</h3>
-          </div>
-          <div class="bloco">
-            <p class="paragrafo_aside">Python: por que a linguagem é tão usada para Data Science e finanças?</p>
-            <img class="img_aside" src="../assets/img/imgs/calendario.png" alt="calendario">
-            <h3 class="data_aside">14.ago.2024</h3>
+          <div class="info_data">
+            <img src="../assets/img/imgs/calendario.png" alt="calendario" />
+            <div class="dados_atualizacao">
+              <p class="data_atualizacao">14.ago.2024 17:30</p>
+              <p class="atualizacao">Atualizado há 3 dias</p>
+            </div>
           </div>
         </div>
+        <div>
+          <img
+            class="img_git"
+            src="../assets/img/imgs/mascote_git.png"
+            alt="mascote_git"
+          />
+          <p class="paragrafo">
+            Git e GitHub são dois softwares de controle de versão essenciais
+            para o trabalho de quem escreve e testa códigos para desenvolvimento
+            de programas – os requisitados devs. A diferença entre eles está nos
+            recursos que oferecem, um se adaptando melhor para o uso em projetos
+            individuais e o outro em trabalhos coletivos.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="subtitulo">O que é GIT e GitHub?</h2>
+          <p class="paragrafo">
+            GIT é a ferramenta que vai auxiliar o desenvolvedor a ter um
+            histórico do seu processo de escrita de código. Por meio desse
+            software, é possível visualizar as várias versões que o projeto já
+            teve a partir de comandos, entender o que foi modificado e até
+            reverter as alterações realizadas quando necessário.
+          </p>
+          <p class="paragrafo">
+            Esse direcionamento de código-fonte garante o bom gerenciamento do
+            projeto, dando controle total ao usuário para fazer e desfazer
+            alterações sem tornar o processo confuso.
+          </p>
+          <p class="paragrafo">
+            Seguindo uma lógica semelhante a do GIT, o GitHub é uma plataforma
+            que também permite ao usuário ter o controle de todas as edições do
+            código-fonte. O funcionamento do GitHub se destaca pelo
+            armazenamento em nuvem, opção de copiar o código de outro do
+            repositório, fazer alterações e aceitar as mudanças sugeridas por
+            outro desenvolvedor. Tudo isso simultaneamente.
+          </p>
+        </div>
+        <div>
+          <h2 class="subtitulo">Quando usar GIT e o GitHub?</h2>
+          <p class="paragrafo">
+            Para otimizar o seu processo de desenvolvimento, os dois programas
+            são a pedida certa. É até possível integrar o GIT na sua conta do
+            GitHub para encontrar solução de erros mais rapidamente, manter a
+            equipe sempre informada do andamento do projeto e criar um bom
+            networking por meio da criação de portfólio.
+          </p>
+        </div>
+        <h3>
+          Fonte: <span class="fonte-destaque">Git</span>,
+          <span class="fonte-destaque">Github</span>
+        </h3>
+      </section>
+
+      <aside class="aside_article" id="artigos">
+        <h2 class="aside_title">Artigos recomendados</h2>
+        <div class="bloco_artigos">
+
+          <div class="artigo" id="artigo-phyton">
+            <p class="paragrafo_aside">Python: por que a linguagem é tão usada para Data Science e finanças? </p>
+            <div class="article_publi-day">
+              <img class="img_calendar" src="../assets/img/imgs/calendario.png" alt="calendario"/>
+              <p class="data_aside">14.ago.2024</p>
+            </div>
+          </div>
+
+          <div class="artigo" id="artigo-phyton">
+            <p class="paragrafo_aside">O que é linguagem de programação? Conheça as principais </p>
+            <div class="article_publi-day">
+              <img class="img_calendar" src="../assets/img/imgs/calendario.png" alt="calendario"/>
+              <p class="data_aside">14.ago.2024</p>
+            </div>
+          </div>
+
+          <div class="artigo" id="artigo-phyton">
+            <p class="paragrafo_aside">GitHub tem receita de US$ 1 bilhão e 90 milhões de usuários </p>
+            <div class="article_publi-day">
+              <img class="img_calendar" src="../assets/img/imgs/calendario.png" alt="calendario"/>
+              <p class="data_aside">14.ago.2024</p>
+            </div>
+          </div>
+
+          <div class="artigo" id="artigo-phyton">
+            <p class="paragrafo_aside">15 comandos no GIT que os desenvolvedores precisam saber </p>
+            <div class="article_publi-day">
+              <img class="img_calendar" src="../assets/img/imgs/calendario.png" alt="calendario"/>
+              <p class="data_aside">14.ago.2024</p>
+            </div>
+          </div>
+
+        </div>
+
         <div class="redes">
-          <h2 class="redes_title
-          ">COMPARTILHE EM SUAS REDES</h2>
-          <div  class="redes_acesso">
-            <img src="../assets/img/icons/icone-linkedin.png" alt="LinkedIn">
-            <img src="../assets/img/icons/icone-whats.png" alt="WhatsApp">
-            <img src="../assets/img/icons/icone-twitter.png" alt="Twitter">
-            <img src="../assets/img/icons/icone-compartilhar.png" alt="Compartilhar">
+          <h2 class="redes_title">COMPARTILHE EM SUAS REDES</h2>
+          <div class="redes_acesso">
+            <a href="https://www.linkedin.com/feed/" target="_blank">
+              <img src="../assets/img/icons/icone-linkedin.png" alt="LinkedIn" />
+            </a>
+
+            <a href="https://web.whatsapp.com" target="_blank">
+              <img src="../assets/img/icons/icone-whats.png" alt="WhatsApp" />
+            </a>
+
+            <a href="https://x.com/home" target="_blank"><img src="../assets/img/icons/icone-twitter.png" alt="Twitter" /></a>
+            <a href="#"><img src="../assets/img/icons/icone-compartilhar.png" alt="Compartilhar" /></a>
           </div>
         </div>
       </aside>
-    </section>
+    </main>
 
-    <section class="article_info">
-      <div class="article_titulo">
-        <h1>GIT e GitHub: o que são e quais as diferenças entre eles?</h1>
-      </div>
-      <div class="info_autora_e_data">
-        <div class="info_autora">
-          <img src="../assets/img/imgs/autora.png" alt="Foto autora">
-          <h3 class="nome_autora">Tayná Oliveira</h3>
+    <footer id="informacoes" class="footer-container">
+      <section class="sigaNos">
+        <img
+          src="../assets/img/imgs/TechNews-logo (Desktop).png"
+          class="footer-logo"
+          alt="logo Tech blog"
+        />
+
+        <p>Tudo que você precisa saber sobre tecnologia pra começar seu dia bem e informado. </p>
+        <div>
+          <a href="https://www.linkedin.com/feed/" target="_blank">
+            <img src="../assets/img/icons/icone-linkedin.png" alt="" class="img_socialMedia" id="linkedin"/>
+          </a>
+          
+          <a href="https://x.com/home" target="_blank">
+            <img src="../assets/img/icons/icone-twitter.png" alt="" class="img_socialMedia" id="whatsapp"/>
+          </a>
+          <a href="https://web.whatsapp.com" target="_blank"
+            ><img
+              src="../assets/img/icons/icone-whats.png"
+              alt=""
+              class="img_socialMedia"
+              id="x"
+          /></a>
         </div>
-        <div class="info_data">
-          <img src="../assets/img/imgs/calendario.png" alt="calendario">
-          <div class="dados_atualizacao">
-            <h3 class="data_atualizacao" >14.ago.2024 17:30</h3>
-            <h3 class="atualizacao">Atualizado há 3 dias</h3>
-          </div>  
-        </div>
-      </div>
-      <div>
-        <img class="img_git" src="../assets/img/imgs/mascote_git.png" alt="mascote_git">
-        <p class="paragrafo">Git e GitHub são dois softwares de controle de versão essenciais para o trabalho de quem escreve e testa códigos para desenvolvimento de programas – os requisitados devs. A diferença entre eles está nos recursos que oferecem, um se adaptando melhor para o uso em projetos individuais e o outro em trabalhos coletivos.</p>
-      </div>
-
-      <div>
-        <h2 class="subtitulo">O que é GIT e GitHub?</h2>
-        <p class="paragrafo">GIT é a ferramenta que vai auxiliar o desenvolvedor a ter um histórico do seu processo de escrita de código. Por meio desse software, é possível visualizar as várias versões que o projeto já teve a partir de comandos, entender o que foi modificado e até reverter as alterações realizadas quando necessário.</p>
-        <p class="paragrafo">Esse direcionamento de código-fonte garante o bom gerenciamento do projeto, dando controle total ao usuário para fazer e desfazer alterações sem tornar o processo confuso.</p>
-        <p class="paragrafo">Seguindo uma lógica semelhante a do GIT, o GitHub é uma plataforma que também permite ao usuário ter o controle de todas as edições do código-fonte. O funcionamento do GitHub se destaca pelo armazenamento em nuvem, opção de copiar o código de outro do repositório, fazer alterações e aceitar as mudanças sugeridas por outro desenvolvedor. Tudo isso simultaneamente.</p>
-      </div>
-      <div>
-        <h2 class="subtitulo">Quando usar GIT e o GitHub?</h2>
-        <p class="paragrafo">Para otimizar o seu processo de desenvolvimento, os dois programas são a pedida certa. É até possível integrar o GIT na sua conta do GitHub para encontrar solução de erros mais rapidamente, manter a equipe sempre informada do andamento do projeto e criar um bom networking por meio da criação de portfólio.</p>
-      </div>
-      <h3>Fonte: <span class="fonte-destaque">Git</span>, <span class="fonte-destaque">Github</span></h3>
-
-    </section>
-  </main>
-  <footer></footer>
-</body>
+      </section>
+      <section class="contateNos">
+        <h2>Entre em contato</h2>
+        <form action="" method="get">
+          <input
+            class="inpt_contato"
+            id="nome"
+            type="text"
+            placeholder="Nome"
+          />
+          <input
+            class="inpt_contato"
+            id="email"
+            type="text"
+            placeholder="Email"
+          />
+          <textarea
+            id="assunto"
+            class="inpt_assunto"
+            placeholder="Assunto da mensagem"
+          ></textarea>
+          <button class="btn_callToAction btn_footer" type="submit">
+            <a href="#">ENTRAR EM CONTATO</a>
+          </button>
+        </form>
+      </section>
+    </footer>
+  </body>
 </html>
