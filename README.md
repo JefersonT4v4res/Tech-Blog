@@ -16,29 +16,18 @@ O **Tech Blog** é um site de tecnologia desenvolvido como parte da avaliação 
 - **Design responsivo:** Todas as páginas se adaptam automaticamente a diferentes tamanhos de tela, garantindo uma experiência de usuário consistente em **dispositivos móveis, tablets e desktops**.
 
 
-## Como Utilizar
-
-1. **Navegação:** Use o menu no topo das páginas para navegar entre a página inicial, os artigos e a página de inscrição.
-2. **Leitura de Artigos:** Clique nos links dos artigos na página inicial para ser direcionado à página do artigo completo.
-3. **Compartilhamento:** Use os botões de compartilhamento na página de artigo para divulgar o conteúdo nas redes sociais.
-4. **Inscrição:** Na página de inscrição, preencha os campos do formulário para simular o processo de inscrição (o formulário não envia dados).
-
-
 ### Página Inicial (Index)
 
-![Index](https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/index_readme.png)
+<img src="https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/index_readme.png" alt="Index" width="500px">
 
 ### Artigo (Article)
 
-![Article](https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/article_readme.png)
+<img src="https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/article_readme.png" alt="Article" width="500px">
 
 ### Inscrição (Newsletter)
 
-![Newsletter](https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/Newsletter_readme.png)
+<img src="https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/Newsletter_readme.png" alt="Newsletter" width="500px">
 
-## Ajuda
-
-Para dúvidas ou suporte sobre o projeto, entre em contato com qualquer um dos autores listados abaixo.
 
 ## Autores do Projeto
 
