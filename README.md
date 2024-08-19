@@ -9,9 +9,9 @@ O **Tech Blog** é um site de tecnologia desenvolvido como parte da avaliação 
 
 - **Página inicial (Index):** A página inicial inclui um **cabeçalho** com o logotipo e um **menu de navegação** para Contato, Artigos e Inscrição. A **seção de apresentação** destaca um **botão** de ação que direciona para mais informações. No **conteúdo principal**, são exibidos **cartões com artigos** recomendados. O **rodapé** contém **links** para redes sociais e um **formulário** de contato, permitindo que os visitantes enviem mensagens diretamente pelo site (não funcional, apenas campos para preenchimento).
 
-- **Página de artigo:** Essa página apresenta os artigos do site. Conta com **cabeçalho** e **rodapé** semelhantes aos da página inicial. Possui, em sua **seção principal**, informações sobre os autores dos artigos e a data de publicação, **imagens** que representam o assunto abordado, o **artigo** em si, e uma **barra lateral** contendo artigos recomendados, além de uma **seção de compartilhamento em redes sociais**.
+- **Página de artigo (Article):** Essa página apresenta os artigos do site. Conta com **cabeçalho** e **rodapé** semelhantes aos da página inicial. Possui, em sua **seção principal**, informações sobre os autores dos artigos e a data de publicação, **imagens** que representam o assunto abordado, o **artigo** em si, e uma **barra lateral** contendo artigos recomendados, além de uma **seção de compartilhamento em redes sociais**.
 
-- **Página de inscrição:** Oferece um **formulário** de contato em sua **seção principal** para que os usuários possam se inscrever e receber os últimos artigos diretamente em seu e-mail (não funcional, apenas campos para preenchimento). Também possui um **botão** para retornar à página principal.
+- **Página de inscrição (Newsletter):** Oferece um **formulário** de contato em sua **seção principal** para que os usuários possam se inscrever e receber os últimos artigos diretamente em seu e-mail (não funcional, apenas campos para preenchimento). Também possui um **botão** para retornar à página principal.
 
 - **Design responsivo:** Todas as páginas se adaptam automaticamente a diferentes tamanhos de tela, garantindo uma experiência de usuário consistente em **dispositivos móveis, tablets e desktops**.
 
