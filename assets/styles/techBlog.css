@@ -72,6 +72,7 @@
     height: 19rem;
     border: 2px solid #EEEEFF;
     border-radius: .5rem;
+    color: #000;
     font-family: 'Roboto', sans-serif;
     margin: .8rem auto;
     display: flex;
