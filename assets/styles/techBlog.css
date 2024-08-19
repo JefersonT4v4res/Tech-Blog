@@ -57,7 +57,7 @@
     font-weight: 600;
     width: 20rem;
     position: relative;
-    right: 25%;
+    right: 2%;
 }
 
 .container_cards {
@@ -118,6 +118,10 @@
 
     .hero-titulo, .hero-subtitulo {
         max-width: 44rem;
+    }
+
+    .conteudo_Principal h2 {
+        right: 25%;
     }
 
     .card {
