@@ -26,15 +26,15 @@ O **Tech Blog** é um site de tecnologia desenvolvido como parte da avaliação 
 
 ### Página Inicial (Index)
 
-![Index](URL_INDEX)
+![Index](https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/index_readme.png)
 
 ### Artigo (Article)
 
-![Article](URL_ARTICLE)
+![Article](https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/article_readme.png)
 
 ### Inscrição (Newsletter)
 
-![Newsletter](URL_NEWSLETTER)
+![Newsletter](https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/Newsletter_readme.png)
 
 ## Ajuda
 
