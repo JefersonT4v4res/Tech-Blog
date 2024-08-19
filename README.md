@@ -18,15 +18,15 @@ O **Tech Blog** é um site de tecnologia desenvolvido como parte da avaliação 
 
 ### Página Inicial (Index)
 
-<img src="https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/index_readme.png" alt="Index" width="500px">
+<img src="https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/index_readme.png" alt="Index" width="350px">
 
 ### Artigo (Article)
 
-<img src="https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/article_readme.png" alt="Article" width="500px">
+<img src="https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/article_readme.png" alt="Article" width="350px">
 
 ### Inscrição (Newsletter)
 
-<img src="https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/Newsletter_readme.png" alt="Newsletter" width="500px">
+<img src="https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/Newsletter_readme.png" alt="Newsletter" width="350px">
 
 
 ## Autores do Projeto
