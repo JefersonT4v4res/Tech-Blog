@@ -64,11 +64,6 @@ a {
   background-color: transparent;
 }
 
-
-/**
-  * Remove the border on images inside links in IE 10.
-  */
-
 img {
   border-style: none;
   -webkit-user-drag: none;
@@ -96,4 +91,18 @@ select { /* 1 */
 
 textarea {
   overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 9px; /* Largura da barra de rolagem */
+}
+
+/* Estilo do polegar (a parte que você arrasta) */
+::-webkit-scrollbar-thumb {
+  background-color: #836aff75; /* Cor do polegar */
+  border-radius: 4px; /* Bordas arredondadas do polegar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #EEEEFF; /* Cor de fundo da faixa */
 }
