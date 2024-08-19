@@ -11,7 +11,7 @@
 }
 
 .header-logo {
-    width: 12rem;
+    width: 11rem;
 }
 
 .menuHamburguer-icon{ 
@@ -24,9 +24,47 @@
     justify-content: flex-end;
 }
 
+.btn_nav-Menu {
+    display: none;
+}
+
+.btn_nav-Menu a {
+    color: #846AFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
 button {
     background-color: #ffffff;
 }
 
 /* Media Queries para Tablets */
-@media screen and (min-width: 768px) { }
+@media screen and (min-width: 768px) { 
+
+    .header-container {
+        justify-content: space-around;
+    }
+
+    .header-container nav {
+        width: 28rem;
+        justify-content: space-around;
+    }
+
+    .btn_nav-MenuHamburguer {
+        display: none;
+    }
+
+    .btn_nav-Menu {
+        display: flex;
+    }
+
+}
+
+@media screen and (min-width: 1378px) { 
+    
+    .btn_nav-Menu:hover, .btn_nav-Menu a:hover {
+        color: #594ba1;
+    }
+
+}

@@ -10,6 +10,10 @@
     justify-content: center;
 }
 
+.footer-logo {
+    width: 13rem;
+}
+
 .sigaNos, .contateNos, form {
     max-width: 37rem;
     display: flex;
@@ -85,4 +89,30 @@ section .inpt_assunto {
 }
 
 /* Media Queries para Tablets */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 767px) {
+
+    .btn_hero {
+        font-size: 1.125rem;
+        max-width: 10rem;
+    }
+
+    .btn_main {
+        font-size: 1.125rem;
+        max-width: 20rem;
+    }
+
+    .sigaNos {
+        margin-top: 3rem;
+        font-size: 1.5rem;
+    }
+
+    .inpt_contato, .inpt_assunto {
+        width: 30rem;      
+    }
+
+    .btn_footer {
+        font-size: 1.125rem;
+        max-width: 30rem;
+    }
+
+}

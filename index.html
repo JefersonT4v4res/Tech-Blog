@@ -13,21 +13,22 @@
 </head>
 <body>
    <header class="header-container">
-    <img src="./assets/img/imgs/TechNews-logo (Mobile).png" class="header-logo" alt="logo Tech blog">
-    <nav>
-        <button type="button"><img src="./assets/img/icons/menu-hamburguer_icon.svg" alt="" class="menuHamburguer-icon"></button>
-        <!-- <button type="button"><a href="#">CONTATO</a></button>
-        <button type="button"><a href="#">ARTIGOS</a></button>
-        <button type="button"><a href="#">INSCREVA-SE</a></button> -->
-    </nav>
-   </header>
+        <img src="./assets/img/imgs/TechNews-logo (Desktop).png" class="header-logo" alt="logo Tech blog">
+        
+        <nav>
+            <button class="btn_nav-MenuHamburguer" type="button"><img src="./assets/img/icons/menu-hamburguer_icon.svg" alt="" class="menuHamburguer-icon"></button>
+            <button class="btn_nav-Menu" type="button"><a href="#">CONTATO</a></button>
+            <button class="btn_nav-Menu" type="button"><a href="#">ARTIGOS</a></button>
+            <button class="btn_nav-Menu" type="button"><a href="#">INSCREVA-SE</a></button>
+        </nav>
+    </header>
 
    <section class="hero">
         <img src="./assets/img/imgs/image.svg" alt="">
         <h1 class="hero-titulo">Receba os <span class="destaque--hero-titulo">melhores artigos</span>
             de programação em um só lugar</h1>
         <p class="hero-subtitulo">Explore o topo da programação em um só lugar! Seu destino único para dicas e tendências atuais.</p>
-        <button class="btn_callToAction" type="button">SAIBA MAIS</button>
+        <button class="btn_callToAction btn_hero" type="button">SAIBA MAIS</button>
    </section>
 
    <main class="conteudo_Principal">
@@ -81,12 +82,13 @@
                 </div>
             </div>
         </div>
-        <button class="btn_callToAction" type="button">CARREGAR MAIS ARTIGOS</button>
+        <button class="btn_callToAction btn_main" type="button">CARREGAR MAIS ARTIGOS</button>
    </main>
 
    <footer class="footer-container">
         <section class="sigaNos">
-            <img src="./assets/img/imgs/TechNews-logo (Mobile).png" alt="">
+            <img src="./assets/img/imgs/TechNews-logo (Desktop).png" class="footer-logo" alt="logo Tech blog">
+
             <p>Tudo que você precisa saber sobre tecnologia pra começar seu dia bem e informado.</p>
             <div>
                 <a href="https://www.linkedin.com/feed/" target="_blank"><img src="./assets/img/icons/icone-linkedin.png" alt="" class="img_socialMedia" id="linkedin"></a>
@@ -100,7 +102,7 @@
                 <input class="inpt_contato" id="nome" type="text" placeholder="Nome">
                 <input class="inpt_contato" id="email" type="text" placeholder="Email">
                 <textarea id="assunto" class="inpt_assunto" placeholder="Assunto da mensagem"></textarea>
-                <button class="btn_callToAction" type="submit">ENTRAR EM CONTATO</button>
+                <button class="btn_callToAction btn_footer" type="submit">ENTRAR EM CONTATO</button>
             </form>
         </section>
    </footer>
