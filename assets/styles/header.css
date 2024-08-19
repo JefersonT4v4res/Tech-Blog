@@ -61,7 +61,7 @@ button {
 
 }
 
-@media screen and (min-width: 1378px) { 
+@media screen and (min-width: 1199px) { 
     
     .btn_nav-Menu:hover, .btn_nav-Menu a:hover {
         color: #594ba1;

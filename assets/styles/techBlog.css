@@ -3,7 +3,17 @@
 .hero {
     background-color: #F8F8FF;
     padding: 2rem 1rem;
-    height: 33rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero img {
+    height: 19rem;
+}
+
+.hero div {
+    height: 15rem;
     display: flex;
     justify-content: space-around;
     align-content: space-between;
@@ -45,8 +55,9 @@
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
-    width: 21rem;
-    margin: auto;
+    width: 20rem;
+    position: relative;
+    right: 25%;
 }
 
 .container_cards {
@@ -88,26 +99,24 @@
 /* Media Queries para Tablets */
 @media screen and (min-width: 768px) { 
 
-    .hero {
-        height: 40rem;
+    .hero div {
+        height: 18rem;
     }
 
     .hero img {
-        height: 19rem;
+        height: 23rem;
     }
 
     .hero-titulo {
         font-size: 2rem;
-        width: 40rem;
     }
 
     .hero-subtitulo {
         font-size: 1.25rem;
-        max-width: 27rem;
     }
 
-    .conteudo_Principal h2 {
-        width: 41rem;
+    .hero-titulo, .hero-subtitulo {
+        max-width: 44rem;
     }
 
     .card {
@@ -118,5 +127,54 @@
         padding: .6rem;
     }
 
+
+}
+
+@media screen and (min-width: 1199px) { 
+    
+    .hero {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .hero div {
+        width: 33rem;
+        align-items: flex-start;
+    }
+
+    .hero-titulo, .hero-subtitulo {
+        max-width: 52rem;
+        text-align: left;
+    }
+
+    .hero-titulo {
+        font-size: 2.2rem;
+    }
+
+    .hero-subtitulo {
+        font-size: 1.2rem;
+    }
+
+    .container_cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        max-width: 75rem;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .conteudo_Principal h2 {
+        right: 28%;
+    }
+
+    
+}
+
+@media screen and (min-width: 1500px) { 
+
+    .conteudo_Principal h2 {
+        right: 26%;
+    }
 
 }
