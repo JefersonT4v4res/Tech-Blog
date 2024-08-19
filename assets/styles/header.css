@@ -63,6 +63,11 @@ button {
 
 @media screen and (min-width: 1199px) { 
     
+    .header-container {
+        justify-content: space-between;
+        padding: 2rem;
+    }
+    
     .btn_nav-Menu:hover, .btn_nav-Menu a:hover {
         color: #594ba1;
     }

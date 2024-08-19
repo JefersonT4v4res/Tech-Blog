@@ -119,5 +119,15 @@ section .inpt_assunto {
 
 @media screen and (min-width: 1199px) { 
     
+    .sigaNos {
+        justify-content: flex-start;
+    }
+
+    .sigaNos p {
+        text-align: left;
+    }
     
+    .footer-container {
+        justify-content: space-around;
+    }
 }
