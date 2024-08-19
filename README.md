@@ -32,7 +32,7 @@ O **Tech Blog** é um site de tecnologia desenvolvido como parte da avaliação 
 
 ![Article](URL_ARTICLE)
 
-### Newsletter
+### Inscrição (Newsletter)
 
 ![Newsletter](URL_NEWSLETTER)
 
