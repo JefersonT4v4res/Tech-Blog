@@ -174,6 +174,7 @@ body {
   .aside_article {
     position: sticky;
     height: 58rem;
+    top: 2rem;
     width: 35%;
     margin-top: 2.3rem;
     display: flex;
@@ -276,16 +277,26 @@ body {
 
   .atualizacao {
     text-align: center;
-}
+  }
 
-.container_conteudo {
-  justify-content: space-between;
-}
+  .container_conteudo {
+    justify-content: space-between;
+  }
 
-.article_publi-day {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
+  .article_publi-day {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .aside_article {
+    margin-top: 0rem;
+
+  }
+
+  .artigo {
+    padding: 19px;
+    height: 7rem;
 }
 
 }
