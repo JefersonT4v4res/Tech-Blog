@@ -19,9 +19,9 @@ O **Tech Blog** é um site de tecnologia desenvolvido como parte da avaliação 
 ### Página Inicial (Index), Artigo (Article) e Inscrição (Newsletter)
 
 <div style="display: flex; flex-direction: row; justify-content: space-between;">
-    <img src="https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/index_readme.png" alt="Index" style="width: 30%;">
-    <img src="https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/article_readme.png" alt="Article" style="width: 30%;">
-    <img src="https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/Newsletter_readme.png" alt="Newsletter" style="width: 30%;">
+    <img src="https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/index_readme.png" alt="Index" style="width: 200px;">
+    <img src="https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/article_readme.png" alt="Article" style="width: 200px;">
+    <img src="https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/Newsletter_readme.png" alt="Newsletter" style="width: 200px;">
 </div>
 
 
