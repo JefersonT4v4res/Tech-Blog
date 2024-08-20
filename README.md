@@ -16,13 +16,9 @@ O **Tech Blog** é um site de tecnologia desenvolvido como parte da avaliação 
 - **Design responsivo:** Todas as páginas se adaptam automaticamente a diferentes tamanhos de tela, garantindo uma experiência de usuário consistente em **dispositivos móveis, tablets e desktops**.
 
 
-### Página Inicial (Index), Artigo (Article) e Inscrição (Newsletter)
+### Página Inicial (Index)
 
-<div style="display: flex; flex-direction: row; justify-content: space-between;">
-    <img src="https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/index_readme.png" alt="Index" style="width: 200px;">
-    <img src="https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/article_readme.png" alt="Article" style="width: 200px;">
-    <img src="https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/Newsletter_readme.png" alt="Newsletter" style="width: 200px;">
-</div>
+<img src="https://github.com/JefersonT4v4res/Tech-Blog/blob/main/assets/img/imgs/index_readme.png" alt="Index" width="350px">
 
 
 ## Autores do Projeto
