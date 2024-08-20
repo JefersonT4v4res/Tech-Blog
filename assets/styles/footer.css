@@ -83,7 +83,7 @@ section .inpt_assunto {
     background-color: #846AFF;
 }
 
-.btn_callToAction a {
+.btn_callToAction a, .btn_callToAction {
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: .875rem;
