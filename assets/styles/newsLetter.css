@@ -2,34 +2,29 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  box-sizing: border-box;
 }
 
 /* Contêiner Principal */
 
 .container-newsletter {
   display: flex;
-  align-items: center;
-  max-width: 100%;
-  width: 100%;
-  overflow: hidden;
+  align-items: flex-start;
+  height: 100vh;
+  width: 100vw;
   flex-direction: column;
   padding: 1.5rem;
+  background-image: url(../img/imgs/trianguloBG_newsletter.svg);
+  background-repeat: no-repeat;
+  background-size: 63vw;
+  background-position: bottom right;
 }
 
 .subscribe {
-  flex: 1;
-  padding: 3rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80vw;
 }
 
 .subscribe header img {
@@ -62,12 +57,11 @@ body {
   gap: 0.3rem;
   margin-top: 1rem;
   margin-bottom: 4rem;
-  width: 100%;
+  width: 22rem;
 }
 
 .subscribe input[type="email"] {
   width: 100%;
-  max-width: 17rem;
   height: 3rem;
   padding: 0 3rem;
   border: 1px solid #121214;
@@ -108,8 +102,6 @@ body {
 
 .subscribe .additional-info p {
   font-style: italic;
-  margin-bottom: 1rem;
-  padding-left: 1rem;
 }
 
 .subscribe .additional-info button {
@@ -153,53 +145,41 @@ body {
 /* Triângulo Background*/
 
 .triangulo {
-  background-image: url("/assets/img/imgs/trianguloBG_newsletter.svg");
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  background-size: contain;
-  position: absolute;
-  right: 0;
-  bottom: 0;
   width: 100vw;
-  height: 26vh;
+  height: 20vh;
   z-index: -1;
 }
 
 /* Media Queries para dispositivos maiores */
 
-/* Versão Tablets */
 
-@media (min-width: 480px) {
+@media (min-width: 375px) {
+
   .container-newsletter {
     flex-direction: column;
     padding: 2rem;
   }
 
-  .subscribe header img {
-    width: 4.8rem;
-    height: 4.8rem;
-    margin-bottom: 2rem;
-  }
-
-  .subscribe h1 {
-    font-size: 2rem;
+  .subscribe img {
+    width: 13.8rem;
+    margin-bottom: 3rem;
   }
 
   .subscribe p {
-    font-size: 1.25rem;
-    min-width: 37rem;
+    font-size: 1rem;
+    width: 21rem;
+    text-align: justify;
+    margin-bottom: 0rem;
   }
 
   .subscribe form {
-    width: 100%;
     padding: 1rem;
     gap: 1rem;
   }
 
   .subscribe input[type="email"] {
     font-size: 1.1rem;
-    width: 36rem;
-    min-width: 30rem;
+    width: 20rem;
     max-width: 36rem;
     padding-left: 5rem;
     height: 3.5rem;
@@ -210,7 +190,7 @@ body {
 
   .subscribe button {
     font-size: 1.1rem;
-    min-width: 30rem;
+    width: 20rem;
     max-width: 36rem;
     height: 3.5rem;
   }
@@ -220,86 +200,69 @@ body {
   }
 
   .subscribe .additional-info button a {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   .subscribe .additional-info a img {
-    width: 1.9rem;
-    height: 2rem;
+    width: 1.6rem;
+    margin-bottom: 0rem;
   }
 
-  .triangulo {
-    background-size: cover;
-    height: 32vh;
-    width: 33vh;
-    background-position: bottom;
+  .additional-info p{
+    margin-bottom: 0rem;
+    padding-left: 0rem;
   }
+
+  .img_celular-newsletter {
+    display: none;
+  }
+
 }
 
 /* Versão Desktop */
 
 @media (min-width: 768px) {
   .container-newsletter {
-    flex-direction: row;
-    max-width: 1800px;
-    padding: 2rem;
-  }
-
+    background-size: 50vw;
+  } 
+  
   .subscribe {
-    margin-left: 3rem;
-    padding: 2rem;
-    align-items: flex-start;
-    text-align: left;
+    padding: 1rem;
+    margin-left: 4rem;
   }
 
-  .subscribe header {
-    display: flex;
-    margin-left: 5rem;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .subscribe header img {
-    width: 5rem;
-    height: 5rem;
-    margin-bottom: 2rem;
-  }
-
-  .subscribe h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 2rem;
-  }
+  .subscribe img {
+    width: 15rem;
+}
 
   .subscribe p {
-    margin-left: 5rem;
-    width: 55rem;
-    font-size: 1.5rem;
+    width: 30rem;
+    font-size: 1.1rem;
   }
 
   .subscribe form {
-    width: 100%;
-    padding: 2rem;
+    width: 32rem;
   }
 
   .subscribe input[type="email"] {
-    max-width: 36rem;
-    height: 3.5rem;
+    width: 30rem;
   }
 
-  .subscribe button {
-    max-width: 36rem;
-    height: 3.5rem;
+  .subscribe button { 
+    width: 30rem;
   }
 
-  .subscribe .additional-info {
-    margin-left: 2rem;
+  .subscribe .additional-info p {
     font-size: 1.5rem;
   }
+  
 
   .subscribe .additional-info button a {
-    margin-left: 6rem;
     font-size: 1.5rem;
+  }
+
+  .subscribe .additional-info button {
+    width: 20rem;
   }
 
   .subscribe .additional-info a img {
@@ -307,23 +270,31 @@ body {
     height: 2.1rem;
   }
 
-  /* Seção da imagem (mobile) */
+}
 
-  .image-newsletter {
-    flex: 1;
-    margin-left: 5rem;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    display: block;
+@media (min-width: 1020px) {
+  
+  .container-newsletter {
+    justify-content: space-around;
+    background-size: 54vw;
   }
 
-  /*Background*/
-
-  .triangulo {
-    background-size: contain;
-    right: 0;
-    width: 100vh;
-    height: 100vh;
+  .subscribe {
+    width: 50vw;
+    margin-left: 0rem;
   }
+
+  .subscribe p {
+    width: 49vw;
+    max-width: 39rem;
+    font-size: 1.3rem;
+  }
+
+  .img_celular-newsletter {
+    display: flex;
+    position: absolute;
+    transform: translate(63vw, -54rem);
+    width: 20rem;
+  }
+
 }
