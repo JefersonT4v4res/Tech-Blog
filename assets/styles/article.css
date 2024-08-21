@@ -290,8 +290,12 @@ body {
   }
 
   .aside_article {
+    height: 49rem;
     margin-top: 0rem;
-
+  }
+  
+  .aside_title {
+      margin-top: 2rem;
   }
 
   .artigo {

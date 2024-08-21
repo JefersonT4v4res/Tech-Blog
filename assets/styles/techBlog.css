@@ -55,9 +55,9 @@
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
-    width: 20rem;
+    width: 16rem;
     position: relative;
-    right: 2%;
+    right: 4vw;
 }
 
 .container_cards {
